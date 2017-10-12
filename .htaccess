@@ -1,0 +1,13 @@
+Options +FollowSymLinks
+RewriteEngine On
+Options All -Indexes
+
+ErrorDocument 404 http://localhost/projek/belajarmlm
+
+RewriteRule ^landing$ index.php
+RewriteRule ^home$ index-home.php
+RewriteRule ^login$ login.php
+RewriteRule ^forgot$ forgot.php
+RewriteRule ^logout$ logout.php
+RewriteRule ^member$ member.php
+
